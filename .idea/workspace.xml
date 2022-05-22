@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d47944f-89cd-432a-9816-5f56b9e157d1" name="Default Changelist" comment="" />
+    <list default="true" id="6d47944f-89cd-432a-9816-5f56b9e157d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +26,14 @@
         <counts>
           <entry key="conf" value="69" />
           <entry key="py" value="9" />
+          <entry key="rst" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Logstash" value="69" />
           <entry key="Python" value="9" />
+          <entry key="ReST" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,6 +41,7 @@
           <entry key="conf" value="2" />
           <entry key="js" value="4" />
           <entry key="py" value="36" />
+          <entry key="rst" value="1" />
           <entry key="sh" value="2" />
           <entry key="txt" value="4" />
         </counts>
@@ -46,21 +52,13 @@
           <entry key="Logstash" value="2" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="36" />
+          <entry key="ReST" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_website/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -125,16 +123,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/main.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="54">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>xinyus.</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -158,6 +169,7 @@
         <option value="$PROJECT_DIR$/static/APP_NAME/toexcel/format.js" />
         <option value="$PROJECT_DIR$/toexcel/views.py" />
         <option value="$PROJECT_DIR$/toexcel/__init__.py" />
+        <option value="$PROJECT_DIR$/README.rst" />
       </list>
     </option>
   </component>
@@ -193,37 +205,12 @@
             <path>
               <item name="DjangoWeb-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoWeb-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="app_usercenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoWeb-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoWeb-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="app_website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoWeb-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoWeb-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoWeb-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoWeb-framework" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoWeb-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoWeb-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="DjangoProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoWeb-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoWeb-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoWeb-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoWeb-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="wechatpy" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,9 +278,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="351" y="25" width="2102" height="1415" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -303,7 +291,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974634" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,10 +531,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/main.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="54">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
 </project>
