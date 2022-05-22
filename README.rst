@@ -9,8 +9,9 @@ Before starting you need to do the following initialization operations
 
 * First, clone this project
 
-* Next, You need to replace all {#APPNAME#} characters with your project name characters in the project in the editor
-* And replace APP_NAME with your project name in the static folder
+* Next replace APP_NAME with your project name in the DjangoWeb-framework folder
+* And Next, You need to replace all {#APPNAME#} characters with your project name characters in the project in the editor
+* And replace APP_NAME with your project name in the static folder 
 
 
 * At this point you can start your application
