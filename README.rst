@@ -25,7 +25,7 @@ more help:
 
 
 
-hanks for using
+Thanks for using
 ====================================
 
 
